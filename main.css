@@ -1,0 +1,77 @@
+body {
+  margin-top: 60px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+a {
+  color: #5e5e5e;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+.mainPic {
+  margin-top: -47px;
+  margin-left: -60px
+}
+
+.caption {
+  background-color: #CCC;
+  font-size: 1.4em;
+  padding: 3px;
+  margin-top: -29.5px;
+}
+
+
+.jumbotron {
+  background-color: #ffffff;
+  height: 504px;
+  border: 1px solid #dedede;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5e5e5e;
+  margin-bottom: 30px;
+}
+
+.quote {
+  padding: 60px;
+}
+
+.quote2 {
+  background-color: #ccc;
+  background: url("http://www.brainyquote.com/st/img/1833865/quotes.png") no-repeat scroll 5px -2px transparent;
+  font-size: 1.7em;
+  padding: 10px 12px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px #CCCCCC;
+}
+
+.name {
+  font-size: .8em;
+  padding-right: 18px;
+  color: #DCDCDC;
+}
+
+.bio {
+  font-size: 1.3em;
+  padding: 20px;
+}
+
+.works {
+  padding-left: 50px;
+}
+
+.title {
+  padding-left: 17px;
+}
+
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #5e5e5e;
+  font-size: 1.2em;
+}
