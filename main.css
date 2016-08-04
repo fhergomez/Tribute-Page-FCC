@@ -51,6 +51,14 @@ a:hover {
   box-shadow: 0 1px 3px #CCCCCC;
 }
 
+.link {
+  font-size: 1.7em;
+  padding: 30px 55px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px #CCCCCC;
+}
+
 .name {
   font-size: .8em;
   padding-right: 18px;
