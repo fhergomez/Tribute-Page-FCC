@@ -41,6 +41,11 @@ a:hover {
   padding: 60px;
 }
 
+.button {
+  position: absolute;
+  margin: 150px 293px;
+}
+
 .quote2 {
   background-color: #ccc;
   background: url("http://www.brainyquote.com/st/img/1833865/quotes.png") no-repeat scroll 5px -2px transparent;
