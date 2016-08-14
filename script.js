@@ -1,8 +1,13 @@
 $(document).ready(function(){
+  $('.quote-english').hide();
   $('button').on('click',function(){
-    $('.quote').toggle(function(){
-      $('.quote').html('<p class="pull-right"><i>"Liberty doesn\'t need wings<br>what it needs is roots"<br></i><span class="pull-right">Octavio Paz</span></p>')
-    });
-
-  })
+    var $this = $(this);
+    $('.quote-spanish,.quote-english').toggle();
+    $this.toggleClass('.btnLanguage');
+    if ($this.hasClass('.btnLanguage')){
+      $this.html('Espa&ntilde;ol');
+    } else {
+      $this.html('English');
+    }
+  });
 });

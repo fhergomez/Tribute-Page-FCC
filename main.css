@@ -17,14 +17,6 @@ a:hover {
   margin-left: -60px
 }
 
-.caption {
-  background-color: #CCC;
-  font-size: 1.4em;
-  padding: 3px;
-  margin-top: -29.5px;
-}
-
-
 .jumbotron {
   background-color: #ffffff;
   height: 504px;
@@ -37,11 +29,22 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.quote {
+.quote-spanish {
   padding: 60px;
 }
 
-.button {
+.quote-english {
+  padding: 60px;
+}
+
+.caption {
+  background-color: #CCC;
+  font-size: 1.4em;
+  padding: 3px;
+  margin-top: -29.5px;
+}
+
+.btnLanguage {
   position: absolute;
   margin: 150px 293px;
 }
